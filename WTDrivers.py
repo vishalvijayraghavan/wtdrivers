@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 
 class WTDrivers:
 
-    def __init__(self, driver, filetype=".png", filepath="./tmp/"):
+    def __init__(self, driver="dummy", filetype=".png", filepath="./tmp/"):
         '''
         This is webdriver object for selenium
         :param driver:
@@ -417,10 +417,10 @@ class WTDrivers:
             diff = ImageChops.subtract(img1, img2)
 
             if not diff.getbbox():
-                print("same")
+                #print("same")
                 return True
             else:
-                print("not same")
+                #print("not same")
                 return False
 
         except Exception as e:
