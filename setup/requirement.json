@@ -1,0 +1,4 @@
+{
+  "sys":["tesseract","python3-pillow"],
+  "pip":["selenium","pytesseract","numpy"]
+}
