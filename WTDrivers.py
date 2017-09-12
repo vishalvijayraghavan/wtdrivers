@@ -393,6 +393,7 @@ class WTDrivers:
             print(e)
             logging.error(e)
 
+
     def screenshotCompare(self, src_image1, src_image2):
         '''
         This function will compare two images pixel by pixel and return true or false
@@ -431,7 +432,6 @@ class WTDrivers:
 
         '''
         This function is used to find if an image consist of subimage if yes return the co-ordinates
-        :param fullscreenshot: fullpage screenshot
         :param subimage: sub-image which you want to find inside the fullpage image
         :return: list of co-ordinates(tuples with x,y co-ord) found
         '''
