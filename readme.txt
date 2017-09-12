@@ -5,6 +5,9 @@
 - Following script will install all system and python dependencies required by script
     > sudo python3 setup/setup.py
 
+- used chrome plugin coordinates to get the co-ordinates
+    - https://chrome.google.com/webstore/detail/coordinates/bpflbjmbfccblbhlcmlgkajdpoiepmkd
+
 #Usecase:
 
     - If we have a dashboard with navigation bar and want to itterate through all the option on it so what is the possible way to acheive it ?
