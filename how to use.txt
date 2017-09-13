@@ -3,7 +3,7 @@
 #Dependencies Installation:
 
 - Following script will install all system and python dependencies required by script
-    > sudo python3 setup/setup.py
+    > sudo python3 setup/install.py
 
 - used chrome plugin coordinates to get the co-ordinates
     - https://chrome.google.com/webstore/detail/coordinates/bpflbjmbfccblbhlcmlgkajdpoiepmkd
